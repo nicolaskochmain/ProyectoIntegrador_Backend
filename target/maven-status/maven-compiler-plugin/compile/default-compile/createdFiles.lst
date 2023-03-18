@@ -3,10 +3,13 @@ com\portfolio\argentinaprograma\Entity\Persona.class
 com\portfolio\argentinaprograma\Interface\IPersonaService.class
 com\portfolio\argentinaprograma\Security\Service\UserDetailsImpl.class
 com\portfolio\argentinaprograma\Entity\Experiencia.class
+com\portfolio\argentinaprograma\Dto\DtoHys.class
 com\portfolio\argentinaprograma\Security\Service\UsuarioService.class
+com\portfolio\argentinaprograma\Entity\Hys.class
 com\portfolio\argentinaprograma\Controller\CExperiencia.class
 com\portfolio\argentinaprograma\Security\Repository\iRolRepository.class
 com\portfolio\argentinaprograma\Security\jwt\JwtProvider.class
+com\portfolio\argentinaprograma\Service\SHys.class
 com\portfolio\argentinaprograma\Controller\CEducacion.class
 com\portfolio\argentinaprograma\Service\ImpPersonaService.class
 com\portfolio\argentinaprograma\Repository\RExperiencia.class
@@ -29,6 +32,8 @@ com\portfolio\argentinaprograma\Security\Controller\AuthController.class
 com\portfolio\argentinaprograma\Security\Controller\Mensaje.class
 com\portfolio\argentinaprograma\Service\SExperiencia.class
 com\portfolio\argentinaprograma\Repository\REducacion.class
+com\portfolio\argentinaprograma\Controller\CHys.class
+com\portfolio\argentinaprograma\Repository\RHys.class
 com\portfolio\argentinaprograma\Controller\PersonaController.class
 com\portfolio\argentinaprograma\Dto\DtoExperiencia.class
 com\portfolio\argentinaprograma\Repository\IPersonaRepository.class
