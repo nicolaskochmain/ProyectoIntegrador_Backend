@@ -1,9 +1,11 @@
 com\portfolio\argentinaprograma\Dto\DtoEducacion.class
 com\portfolio\argentinaprograma\Entity\Persona.class
-com\portfolio\argentinaprograma\Interface\IPersonaService.class
 com\portfolio\argentinaprograma\Security\Service\UserDetailsImpl.class
+com\portfolio\argentinaprograma\Service\SPersona.class
+com\portfolio\argentinaprograma\Dto\DtoPersona.class
 com\portfolio\argentinaprograma\Entity\Experiencia.class
 com\portfolio\argentinaprograma\Dto\DtoHys.class
+com\portfolio\argentinaprograma\Controller\CPersona.class
 com\portfolio\argentinaprograma\Security\Service\UsuarioService.class
 com\portfolio\argentinaprograma\Entity\Hys.class
 com\portfolio\argentinaprograma\Controller\CExperiencia.class
@@ -11,7 +13,6 @@ com\portfolio\argentinaprograma\Security\Repository\iRolRepository.class
 com\portfolio\argentinaprograma\Security\jwt\JwtProvider.class
 com\portfolio\argentinaprograma\Service\SHys.class
 com\portfolio\argentinaprograma\Controller\CEducacion.class
-com\portfolio\argentinaprograma\Service\ImpPersonaService.class
 com\portfolio\argentinaprograma\Repository\RExperiencia.class
 com\portfolio\argentinaprograma\Security\Dto\NuevoUsuario.class
 com\portfolio\argentinaprograma\Security\Entity\UsuarioPrincipal.class
@@ -21,6 +22,7 @@ com\portfolio\argentinaprograma\Security\jwt\JwtEntryPoint.class
 com\portfolio\argentinaprograma\Security\Service\RolService.class
 com\portfolio\argentinaprograma\ArgentinaProgramaApplication.class
 com\portfolio\argentinaprograma\Security\Entity\Usuario.class
+com\portfolio\argentinaprograma\Repository\RPersona.class
 com\portfolio\argentinaprograma\Security\Enums\RolNombre.class
 com\portfolio\argentinaprograma\Security\jwt\JwtTokenFilter.class
 com\portfolio\argentinaprograma\Service\SEducacion.class
@@ -34,6 +36,4 @@ com\portfolio\argentinaprograma\Service\SExperiencia.class
 com\portfolio\argentinaprograma\Repository\REducacion.class
 com\portfolio\argentinaprograma\Controller\CHys.class
 com\portfolio\argentinaprograma\Repository\RHys.class
-com\portfolio\argentinaprograma\Controller\PersonaController.class
 com\portfolio\argentinaprograma\Dto\DtoExperiencia.class
-com\portfolio\argentinaprograma\Repository\IPersonaRepository.class
