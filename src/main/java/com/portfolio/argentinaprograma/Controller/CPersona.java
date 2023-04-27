@@ -49,14 +49,14 @@ public class CPersona {
 //    
 //    @PostMapping("/create")
 //    public ResponseEntity<?> create(@RequestBody DtoPersona dtoPersona) {
-//        if(StringUtils.isBlank(dtoPersona.getNombreE())) {
+//        if(StringUtils.isBlank(dtoPersona.getNombre())) {
 //            return new ResponseEntity(new Mensaje("El nombre es obligatorio"), HttpStatus.BAD_REQUEST);
 //        }
-//        if(sPersona.existsByNombreE(dtoPersona.getNombreE())) 
+//        if(sPersona.existsByNombre(dtoPersona.getNombre())) 
 //            return new ResponseEntity(new Mensaje("Ese nombre ya existe"), HttpStatus.BAD_REQUEST);
 //        
-//        Persona educacion = new Persona(dtoPersona.getNombreE(), dtoPersona.getDescripcionE());
-//        sPersona.save(educacion);
+//        Persona persona = new Persona(dtoPersona.getNombre(), dtoPersona.getDescripcion());
+//        sPersona.save(persona);
 //        return new ResponseEntity(new Mensaje("Persona creada"), HttpStatus.OK);
 //    }
     
