@@ -56,7 +56,7 @@ public class CPersona {
         if(sPersona.existsByNombre(dtoPersona.getNombre())) 
             return new ResponseEntity(new Mensaje("Ese nombre ya existe"), HttpStatus.BAD_REQUEST);
         
-        Persona persona = new Persona(dtoPersona.getNombre(), dtoPersona.getApellido(), dtoPersona.getImg(), dtoPersona.getDescripcion());
+        Persona persona = new Persona(dtoPersona.getNombre(), dtoPersona.getApellido(), dtoPersona.getDescripcion(), dtoPersona.getImg());
         sPersona.save(persona);
         return new ResponseEntity(new Mensaje("Persona creada"), HttpStatus.OK);
     }
