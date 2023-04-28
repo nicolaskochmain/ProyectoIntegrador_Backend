@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/personas")
-@CrossOrigin(origins = "https://frontendap-7f297.web.app")
+@CrossOrigin(origins = "http://localhost:4200")
 public class CPersona {
     @Autowired
     SPersona sPersona;
@@ -48,18 +48,18 @@ public class CPersona {
 //        return new ResponseEntity(new Mensaje("Persona eliminada"), HttpStatus.OK);
 //    }
 //    
-    @PostMapping("/create")
-    public ResponseEntity<?> create(@RequestBody DtoPersona dtoPersona) {
-        if(StringUtils.isBlank(dtoPersona.getNombre())) {
-            return new ResponseEntity(new Mensaje("El nombre es obligatorio"), HttpStatus.BAD_REQUEST);
-        }
-        if(sPersona.existsByNombre(dtoPersona.getNombre())) 
-            return new ResponseEntity(new Mensaje("Ese nombre ya existe"), HttpStatus.BAD_REQUEST);
-        
-        Persona persona = new Persona(dtoPersona.getNombre(), dtoPersona.getApellido(), dtoPersona.getDescripcion(), dtoPersona.getImg());
-        sPersona.save(persona);
-        return new ResponseEntity(new Mensaje("Persona creada"), HttpStatus.OK);
-    }
+//    @PostMapping("/create")
+//    public ResponseEntity<?> create(@RequestBody DtoPersona dtoPersona) {
+//        if(StringUtils.isBlank(dtoPersona.getNombre())) {
+//            return new ResponseEntity(new Mensaje("El nombre es obligatorio"), HttpStatus.BAD_REQUEST);
+//        }
+//        if(sPersona.existsByNombre(dtoPersona.getNombre())) 
+//            return new ResponseEntity(new Mensaje("Ese nombre ya existe"), HttpStatus.BAD_REQUEST);
+//        
+//        Persona persona = new Persona(dtoPersona.getNombre(), dtoPersona.getApellido(), dtoPersona.getDescripcion(), dtoPersona.getImg());
+//        sPersona.save(persona);
+//        return new ResponseEntity(new Mensaje("Persona creada"), HttpStatus.OK);
+//    }
     
     @PutMapping("/update/{id}")
     public ResponseEntity<?> update(@PathVariable("id") int id, @RequestBody DtoPersona dtoPersona) {
