@@ -75,6 +75,7 @@ public class CPersona {
         persona.setApellido(dtoPersona.getApellido());
         persona.setDescripcion(dtoPersona.getDescripcion());
         persona.setImg(dtoPersona.getImg());
+        persona.setBanner(dtoPersona.getBanner());
         
         sPersona.save(persona);
         return new ResponseEntity(new Mensaje("Persona actualizada"), HttpStatus.OK);

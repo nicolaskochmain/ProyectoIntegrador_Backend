@@ -24,15 +24,18 @@ public class Persona {
     private String descripcion;
     
     private String img;
+    
+    private String banner;
 
     public Persona() {
     }
 
-    public Persona(String nombre, String apellido, String descripcion, String img) {
+    public Persona(String nombre, String apellido, String descripcion, String img, String banner) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.descripcion = descripcion;
         this.img = img;
+        this.banner = banner;
     }
 
     public int getId() {
@@ -73,5 +76,13 @@ public class Persona {
 
     public void setImg(String img) {
         this.img = img;
+    }
+    
+    public String getBanner() {
+        return banner;
+    }
+    
+    public void setBanner(String banner) {
+        this.banner = banner;
     }
 }
