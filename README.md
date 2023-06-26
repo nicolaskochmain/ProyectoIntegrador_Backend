@@ -1,3 +1,7 @@
+## Enlaces de interes BBDD
+* [.sql Script](https://drive.google.com/file/d/1FpEuSih1obeGnr7ipwpe44a6U-YKbaDs/view?usp=sharing)
+* [.png Diagrama Entidad Relacion](https://drive.google.com/file/d/1DpJppbVrzp1h7kdHDrAM091nvSKF4nHR/view?usp=sharing)
+
 ## Proyecto Integrador Argentina Programa (Backend)
 Esta es la seccion "back-end" del proyecto integrador que he creado utilizando el framework Spring Boot. Se trata de un portfolio personal que presenta mi trabajo, educacion, experiencia y habilidades en el campo de la programación
 
@@ -18,10 +22,13 @@ Ejecuta mvn spring-boot:run para iniciar la aplicación.
 
 | Metodo HTTP | Ruta | Descripción |
 | -------- | ----------------- | ---------- |
-| GET | /backendap/       | Retorna la entidad |
-| POST | /api/ejemplo     | Crea una nueva entidad  |
-| PUT | /api/ejemplo/{id}    | Actualiza una entidad existente|
-| DELETE | /api/ejemplo/{id}   | Elimina una entidad existente |
+| GET | /backendap/{entidad}/lista       | Retorna la lista de entidades |
+| GET | /backendap/{entidad}/detail/{id}       | Retorna la entidad especifica |
+| POST | /backendap/{entidad}/create     | Crea una nueva entidad  |
+| PUT | /backendap/{entidad}/update/{id}   | Actualiza una entidad existente|
+| DELETE | /backendap/{entidad}/delete/{id}   | Elimina una entidad existente |
+
+los endpoints delete y create excluyen a la entidad Persona.
 
 ## Configuración de la base de datos
 La aplicación utiliza una base de datos MySQL. Puedes cambiar la configuración de la base de datos en el archivo application.properties.
