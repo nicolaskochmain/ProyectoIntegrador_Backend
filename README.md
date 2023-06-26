@@ -1,6 +1,6 @@
 ## Enlaces de interes BBDD
 * [.sql Script](https://drive.google.com/file/d/1FpEuSih1obeGnr7ipwpe44a6U-YKbaDs/view?usp=sharing)
-* [.png Diagrama Entidad Relacion](https://drive.google.com/file/d/1DpJppbVrzp1h7kdHDrAM091nvSKF4nHR/view?usp=sharing)
+* [.png Diagrama Entidad Relacion](bbdd/DER-bbdd.png)
 
 ## Proyecto Integrador Argentina Programa (Backend)
 Esta es la seccion "back-end" del proyecto integrador que he creado utilizando el framework Spring Boot. Se trata de un portfolio personal que presenta mi trabajo, educacion, experiencia y habilidades en el campo de la programación
