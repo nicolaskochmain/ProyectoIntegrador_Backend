@@ -1,5 +1,5 @@
 ## Enlaces de interes BBDD
-* [.sql Script](https://drive.google.com/file/d/1FpEuSih1obeGnr7ipwpe44a6U-YKbaDs/view?usp=sharing)
+* [.sql Script](bbdd/script-bbdd.sql)
 * [.png Diagrama Entidad Relacion](bbdd/DER-bbdd.png)
 
 ## Proyecto Integrador Argentina Programa (Backend)
